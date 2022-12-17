@@ -50,6 +50,8 @@ p {
 .subtext {
     font-size: 15px;
     font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .hero-area {
