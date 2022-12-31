@@ -293,3 +293,8 @@ a {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  .certs {
+    width: 400px;
+    height: 280px;
+  }
