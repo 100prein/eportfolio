@@ -323,15 +323,7 @@ p {
 }
 
 .cert_section {
-    background-color: rgb(204, 167, 167);
-    display: block;
-    justify-content: space-around;
-    padding: 80px;
-}
-
-.cert_section:hover {
-    background-color: rgb(229, 199, 141);
-    transition: 0.7s ease;
+    padding: 20px;
 }
 
 .sub-section_linkups{
