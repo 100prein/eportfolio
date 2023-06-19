@@ -20,6 +20,15 @@ a:hover {
     transition: 0.7s ease;
 }
 
+.link_beberavi {
+    color: white;
+}
+
+.link_beberavi:hover {
+    color: rgba(83, 107, 61, 1);
+    text-decoration: overline;
+}
+
 section {
     background-color: white;
 }
@@ -63,16 +72,32 @@ section {
     transition: 0.7s ease;
 }
 
+.project_beberavi {
+    background-color: rgba(83, 107, 61, 1);
+    display: block;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.project_beberavi:hover {
+    background-color: rgba(219, 235, 204, 1);
+    transition: 0.7s ease;
+    color: rgba(83, 107, 61, 1);
+}
+
 .project_demo {
     width: 220px;
     height: 150px;
     border-radius: 80px;
+    position: cover;
+    object-fit:cover;
+    object-position:50% 50%;
     transition: width 0.7s ease-in-out, height 0.7s ease-in-out;
 }
 
 .project_demo:hover {
     width: 700px;
-    height: 450px;
+    height: 550px;
     border-radius: 80px;
     /*transition: 0.7s ease-in-out;*/
 }
@@ -121,7 +146,7 @@ section {
 
 .hero {
     width: 100%;
-    background-image: linear-gradient(rgba(204, 167, 167, 0.7), rgba(229, 199, 141, 0.7)), url("./php_bkg_image.png");
+    background-image: linear-gradient(rgba(204, 167, 167, 0.7), rgba(229, 199, 141, 0.7)), url("./php_bkg_image.mp4");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -164,12 +189,29 @@ section {
     transition: background-color 0.5s ease-in-out;
 }
 
-footer {
-    background-color: black;
+.hero_beberavi {
+    width: 100%;
+    background: linear-gradient(to right, rgba(83, 107, 61, 1), rgba(219, 235, 204, 1));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
     color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+footer {
+    background-color: rgb(204, 167, 167);
+    color: rgb(255, 236, 169);
     text-align: center;
     padding: 80px;
 }
+
+footer:hover {
+    background-color: rgb(229, 199, 141);
+}
+
+
 nav {
     background-color: rgb(204, 167, 167);
     display: flex;
@@ -275,6 +317,23 @@ p {
     transition: 0.7s ease;
 }
 
+.title_cert {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cert_section {
+    background-color: rgb(204, 167, 167);
+    display: block;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.cert_section:hover {
+    background-color: rgb(229, 199, 141);
+    transition: 0.7s ease;
+}
+
 .sub-section_linkups{
     background-color: rgb(38, 10, 87);
     display: flex;
@@ -296,6 +355,18 @@ p {
 
 .sub-section_career:hover {
     background-color: rgba(17, 245, 227, 1);
+    transition: 0.7s ease;
+}
+
+.sub-section_beberavi{
+    background-color: rgba(83, 107, 61, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section_beberavi:hover {
+    background-color: rgba(219, 235, 204, 1);
     transition: 0.7s ease;
 }
 

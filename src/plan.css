@@ -20,6 +20,14 @@ body {
     color: rgba(14, 194, 179, 1); /*background #OEC2B3*/
 }
 
+.beberavi {
+    color: rgba(219, 235, 204, 1); /*background-active #DBEBCC*/
+    color: rgba(83, 107, 61, 1); /*text-active #ABB8A0*/
+    color: rgba(185, 238, 136, 1); /*text B9EE88*/
+    color: white; /*text alternative*/
+    color: rgba(83, 107, 61, 1); /*background #ABB8A0*/
+}
+
 
 When explaining your web development project in the portfolio section, it's important to provide a clear and concise overview of the project while highlighting its key features and your role in its development. Here are some steps to help you effectively explain your web development project:
 

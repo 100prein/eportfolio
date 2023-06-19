@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <title>ePortfolio</title>
+        <link rel="icon" type="image/x-icon" href="./src/100prein.jpg">
         <link rel="stylesheet" href="src/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,800;1,500;1,700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/fcd93b617c.js" crossorigin="anonymous"></script>
@@ -12,22 +13,21 @@
     <body>
         <section class="hero">
             <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <ul id="nav-list">
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#contact-me">Contact</a></li>
                     <li><a href="#certs">Certifications</a></li>
                 </ul>
-                <button class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </button>
+                
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>Sekou Traore</h1>
                     <p>Full Stack Developer</p>
-                    
-                    <div class="button"><a href="#about-me">About me</a></div>  
                 </div>
                 <div class="socials">
                     <div><a href="https://twitter.com/100prein" class="social-item"><svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a></div>
@@ -41,19 +41,80 @@
             
         </section>
         <section class="sub-section" id="about-me">
+            <div class="information">
+                <h2>About me</h2>
+                <p class="description">My name is Sekou Traore. I was born in Bronx, New York and raised until I was 10 years old. I went to Mali in 2004 to be with my mother, brother and sister. I returned to New York in 2012 to work and provide to my family in Mali as head of the household. I earned my GED/TASC in 2014. As a father of my son, I realized I must earn a degree in order to be a role model for him. I earned my associates in Programming and Software Development </p>
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="./src/sek2_edited.jpg" alt="Sekou's photo"/>
+            </div>
+        </section>
+        <section id="project" class="sub-section-alternative sub-section">
+            <h2>Projects</h2>
+            <div class="project-container">
+
+                <!--Project One -->
+                <div class="project-card"><img src="./src/5th_season_app_land.jpg" class="project-image" alt="Project One Image"/>
+                    <h3>5th Season Weather Applications</h3>
+                    <p class="subtext">The goal is to create an application that provides weather information to users. It took the whole summer to finally develop my first application and publish it on Google Play store. It is developed with React Native, Expo CLI and Visual Code Studio IDE. No major budget was necessary to build this application.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link"  href="5thseason.html"  >View here</a></p>
+                    <p class="subtext">
+                </div>
+
+                <!--Project Two-->
+                <div class="project-card"><img src="./src/beberavi.png" class="project-image" alt="Project Two Image"/>
+                    <h3>Beberavi Collections</h3>
+                    <p class="subtext">Welcome to Beberavi Inc. The goal of this website is to let visitors aware of Beberavi's missions and goals. My worked with my supervisor to buidl this website during the 10KSB project from LaGuardia Community College. I am excited to build this website for Beberavi Inc.</p>
+                    <hr/>
+                <p class="subtext"><a class="project-link" href="beberavi.html" >View here</a></p>
+                </div>
+
+                <!--Project Three-->
+                <div class="project-container">
+                    <div class="project-card"><img src="./src/linkups.png" class="project-image" alt="Project Three Image"/>
+                        <h3>LinkUps</h3>
+                        <p class="subtext">This website was made during a group project from a class at LaGuardia Community College called System Analysis and Designs. My teammate build the website to basic, then I took over to make the website designed with images, buttons, logo, links and css. I helped fixing the chatbot and made it functional.There are elements to our websites such as, Context level Diagram, roles of each members, Gantt Chart, Mission and Vision Statements and more. </p>
+                        <hr/>
+                        <p class="subtext"><a class="project-link" href="linkups.html" >View here</a></p>
+                    </div>
+                </div>
+
+                <!--Project Four-->
+                <div class="project-card"><img src="./src/careerization_img.png" class="project-image" alt="Project Three Image"/>
+                    <h3>Careerization</h3>
+                    <p class="subtext">Created by Sekou and my classmate, Gina Leon. Careerization is a service that assists students find or confirm their path to prefession. It provides assessments to help find their career, various paths to select, checklist on their plans, information about their role model etc... </p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="careerization.html">View here</a></p>
+                </div>
+
+                <!--Project Four-->
+                <!--<div class="project-card"><img src="src\smoking_art_technology.jpg" class="project-image" alt="Project Four Image"/>
+                    <h3>Smoking Art Tech</h3>
+                    <p class="subtext">My friend came up with an idea for creating a new business for us. I included some way to add images to the shopping cart and purchase them. The project started during Spring 2022. We are setting a plan to start our business.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="https://100prein.github.io/packetcodeofficial.github.io/" >View here</a></p>
+                </div>-->
+                
+            </div>
+            
             
         </section>
         <section id="project" class="sub-section-alternative sub-section">
-
+            <div id="certs">
+                <h2>Certifications</h2>
+                <img src="./src/tech_support.jpg" class="certs">
+                <img src="./src/networking.jpg" class="certs">
+                <img src="./src/operating_system.jpg" class="certs">
+                <img src="./src/sys_admin.jpg" class="certs">
+                <img src="./src/google_IT_cert.jpg" class="certs">
+                <p>You can verify at LinkedIn <div><a href="https://www.linkedin.com/in/sekou-traore-9a496b77/" class="social-item2" ><svg xmlns="http://www.w3.org/2000/svg" fill="black " width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></a></div></p>
+            </div>
         </section>
         <footer id="contact-me">
-            <h2>Contact me</h2>
-            <p>sekou4991@icloud.com</p>
+            <p><a href="mailto:sekou4991@icloud.com">sekou4991@icloud.com</a></p><br>
             <p><a href="https://www.buymeacoffee.com/sekou359?new=1">Buy me a Coffee</a></p><br/>
-            Check out my<a href="https://100prein.github.io/captcoldmedia.github.io/"> <p style="color: blue"> Media Website</p></a><br/>
-            Check out<a href="https://100prein.github.io/captcoldart.github.io/"><p style="color: red"> my Arts</p> </a>
-            <a target="_blank" href="./src/resumeSD.pdf">Download Resume</a>
-        
+            <p><a target="_blank" href="./src/resumeSD.pdf">Download Resume</a></p>
         </footer>
         
         <script src="src/app.js" async defer></script>
