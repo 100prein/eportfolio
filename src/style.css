@@ -146,7 +146,7 @@ section {
 
 .hero {
     width: 100%;
-    background-image: linear-gradient(rgba(204, 167, 167, 0.7), rgba(229, 199, 141, 0.7));
+    background-image: linear-gradient(rgba(204, 167, 167, 0.7), rgba(229, 199, 141, 0.7)), url("./php_bkg_image.mp4");
     background-position: center;
     background-size: cover;
     position: relative;
